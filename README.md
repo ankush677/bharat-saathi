@@ -206,12 +206,9 @@ Users create goals and monitor their progress towards important financial needs.
 
 The following section should reflect the actual technologies used in the implementation.
 
-- **Frontend:** [Add your frontend framework]
-- **Styling:** [Add your CSS framework or styling solution]
-- **Programming Language:** [Add language]
-- **AI Integration:** [Add the AI provider and model]
-- **Data Storage:** Browser Local Storage (if used in your implementation)
-- **Charts and Visualization:** [Add charting library]
+- **TECH STACK:** [HTML,CSS,JS,NODE.js,express]
+- **AI Integration:** [GROQ API]
+- **Data Storage:** Browser Local Storage
 - **Version Control:** Git and GitHub
 
 ---
@@ -230,9 +227,6 @@ We appreciate the developers and organizations that make these technologies avai
 - Thanks to the developers and maintainers of the open-source libraries used in this project.
 - Thanks to the AI API providers that make intelligent assistance possible.
 - Thanks to the open-source community for providing tools and resources that support innovation.
-
-**Note:** Replace the placeholders above with the exact APIs, models, and libraries used in your project. Include their official links and license information wherever applicable.
-
 ---
 
 ## 🚀 8. Getting Started
@@ -241,7 +235,7 @@ Follow these steps to run BharatSaathi locally.
 
 ### Prerequisites
 
-- Node.js (if your project uses a Node.js-based frontend)
+- Node.js
 - npm or an equivalent package manager
 - Git
 
@@ -256,7 +250,7 @@ git clone https://github.com/YOUR_USERNAME/bharat-saathi.git
 2. Navigate to the project directory:
 
 ```bash
-cd bharat-saathi
+cd bharat-saathi/backend
 ```
 
 3. Install dependencies:
@@ -265,16 +259,14 @@ cd bharat-saathi
 npm install
 ```
 
-4. Configure environment variables if your project uses external APIs.
+4. Configure environment variables as project uses external APIs.
 
-Create a `.env` file using the required variables documented in your project.
-
-Never upload API keys or secret credentials to GitHub.
+Create a `.env` file using the required variables documented in the project.
 
 5. Start the development server:
 
 ```bash
-npm run dev
+node server.js
 ```
 
 6. Open the local URL displayed in your terminal.
