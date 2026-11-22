@@ -1,0 +1,20 @@
+{
+  "name": "sathi",
+  "version": "1.0.0",
+  "description": "Multilingual (English/Hindi) personal finance assistant for Bharat. No build step.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_detective.js; node test_onboarding.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "openai": "^7.62.0"
+  }
+}
